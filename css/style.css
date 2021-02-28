@@ -1,0 +1,84 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none;
+  color: #f5f5f5;
+  transition: color 300ms ease; }
+  a:hover {
+    color: #00A1FF; }
+
+body {
+  background: #f5f5f5;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  max-width: 414px;
+  margin: 0 auto; }
+
+.container {
+  background: linear-gradient(to right, #141e30, #243b55);
+  max-width: 100%;
+  height: 100vh;
+  color: #f5f5f5;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 3rem; }
+
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: .65rem 2rem;
+  margin-bottom: .75rem;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  width: 100%;
+  outline: none;
+  text-align: center;
+  cursor: pointer; }
+  .btn-light:active, .btn-dark:active {
+    transform: translateY(2px); }
+
+.btn-light {
+  background: #f5f5f5;
+  color: #333; }
+
+.btn-dark {
+  background: #00A1FF;
+  color: #f5f5f5; }
+
+.fab {
+  margin-right: .5rem; }
+
+#homepage-showcase, #homepage-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+
+#homepage-showcase {
+  height: 60vh; }
+  #homepage-showcase .logo {
+    font-size: 4rem;
+    color: #00A1FF;
+    margin-bottom: 1rem; }
+  #homepage-showcase .homepage-showcase-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: .5rem; }
+  #homepage-showcase .homepage-showcase-subtitle {
+    font-size: .9rem;
+    margin: 0 1.75rem;
+    color: #CACDCF; }
+
+#homepage-button {
+  height: 40vh; }
+  #homepage-button .homepage-signin-link {
+    font-size: .9rem;
+    color: #CACDCF;
+    margin-top: 1rem; }
