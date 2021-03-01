@@ -150,7 +150,7 @@ body {
   #signup form div {
     margin-bottom: 2rem; }
     #signup form div:last-child {
-      margin-bottom: -2rem; }
+      margin-bottom: -1rem; }
     #signup form div label {
       font-size: .8rem;
       color: #CACDCF; }
