@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com"> 
 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
+<script defer src="js/main.js"></script>
 <title>Sign Up | Homify</title>
 </head>
 <body>
@@ -34,5 +35,48 @@
 </div>
 <!-- Homepage Ends Here -->
 
+<!-- Sign-up Page Starts Here -->
+<div id="signup" class="container">
+    <div class="signup py-2">
+        <h3 class="signup-title text-left">Let's get started</h3>
+        <p class="signup-instruction">Please fill out the form below:</p>
+    </div>
+
+    <div>
+        <form action="#" method="post">
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" name="email" id="email" autocomplete="off" placeholder="youremail@domain.com">
+            </div>
+
+            <div>
+                <label for="text">User ID</label>
+                <input type="text" name="userID" id="userID" autocomplete="off" placeholder="Please set your User ID">
+            </div>
+
+            <div>
+                <label for="pass">Password</label>
+                <input type="password" name="pass" id="pass"  autocomplete="off" placeholder="Please set your password">
+            </div>
+        </form>
+    </div>
+
+    <div class="buttons">
+        <div class="wrapper">
+            <input type="checkbox" name="check" id="check">
+            <label for="check">By creating an account, you agree to our <a href="#">Terms & Condition</a>.</label>
+        </div>
+
+        <div class="btn">
+            <div>
+                <div class="signup-btn btn-dark">Sign Up</div>
+                <p class="signin-reminder">Already have an account? <a href="#">Sign In</a>.</p>
+            </div>
+            <div>
+                <div class="signup-btn btn-light">Connect with Facebook</div>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>
