@@ -183,3 +183,5 @@ body {
       color: #00A1FF; }
   #signup .buttons .signup-btn {
     font-weight: 600; }
+  #signup .buttons .signin-reminder {
+    margin-top: -2rem; }
