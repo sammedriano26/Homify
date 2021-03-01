@@ -137,7 +137,8 @@ body {
 #signup {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  height: 100vh; }
   #signup .signup-title {
     font-size: 1.5rem;
     font-weight: 900;
